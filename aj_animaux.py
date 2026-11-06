@@ -11,7 +11,7 @@ from pathlib import Path
 
 import pandas as pd
 
-CSV_PAR_DEFAUT = 'zoo_etendu.csv'
+CSV_par_defaut = 'zoo_etendu.csv'
 
 CLASSES_FR = {1: 'Mammifère', 2: 'Oiseau', 3: 'Reptile', 4: 'Poisson',
               5: 'Amphibien', 6: 'Insecte', 7: 'Invertébré'}
@@ -83,7 +83,7 @@ def demander_oui_non(question):
             return 1
         if rep in NON:
             return 0
-        print("   Répondez par oui ou non.")
+        print("Répondez par oui ou non.")
 
 
 def demander_pattes(question):
@@ -156,7 +156,7 @@ def ajouter_un_animal(chemin):
 
 
 def main():
-    chemin = Path(sys.argv[1] if len(sys.argv) > 1 else CSV_PAR_DEFAUT)
+    chemin = Path(sys.argv[1] if len(sys.argv) > 1 else CSV_par_defaut)
     if not chemin.exists():
         print(f"Fichier introuvable : {chemin}  (lancez le script dans le dossier du projet)")
         return 1
