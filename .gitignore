@@ -2,4 +2,3 @@
 __pycache__/
 .ipynb_checkpoints/
 *.bak
-git add .gitignore main.ipynb zoo.csv zoo_etendu.csv ajouter_animal.py
