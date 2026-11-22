@@ -1,0 +1,166 @@
+# List questions dans le jeu "Deviner les animaux"
+# Type => boolean = oui/non,
+# origine => true = question d'origine, false = question ajoutée par l'utilisateur
+# Caractères d'origine   | Langues: Français (fr), Vietnamien (vi)
+hair:
+  type: boolean
+  origine: true
+  fr: "A-t-il des poils ?"
+  vi: "Nó có lông (lông thú) không?"
+feathers:
+  type: boolean
+  origine: true
+  fr: "A-t-il des plumes ?"
+  vi: "Nó có lông vũ không?"
+eggs:
+  type: boolean
+  origine: true
+  fr: "Pond-il des œufs ?"
+  vi: "Nó có đẻ trứng không?"
+milk:
+  type: boolean
+  origine: true
+  fr: "Produit-il du lait (allaite-t-il ses petits) ?"
+  vi: "Nó có cho con bú sữa không?"
+airborne:
+  type: boolean
+  origine: true
+  fr: "Peut-il voler ?"
+  vi: "Nó có biết bay không?"
+aquatic:
+  type: boolean
+  origine: true
+  fr: "Vit-il dans l'eau ?"
+  vi: "Nó có sống dưới nước không?"
+predator:
+  type: boolean
+  origine: true
+  fr: "Est-ce un prédateur ?"
+  vi: "Nó có phải là loài săn mồi không?"
+toothed:
+  type: boolean
+  origine: true
+  fr: "A-t-il des dents ?"
+  vi: "Nó có răng không?"
+backbone:
+  type: boolean
+  origine: true
+  fr: "A-t-il une colonne vertébrale ?"
+  vi: "Nó có xương sống không?"
+breathes:
+  type: boolean
+  origine: true
+  fr: "Respire-t-il de l'air (poumons) ?"
+  vi: "Nó có thở bằng không khí (bằng phổi) không?"
+venomous:
+  type: boolean
+  origine: true
+  fr: "Est-il venimeux ?"
+  vi: "Nó có nọc độc không?"
+fins:
+  type: boolean
+  origine: true
+  fr: "A-t-il des nageoires ?"
+  vi: "Nó có vây không?"
+legs:
+  type: number
+  origine: true
+  fr: "Combien de pattes a-t-il ?"
+  vi: "Nó có bao nhiêu chân?"
+tail:
+  type: boolean
+  origine: true
+  fr: "A-t-il une queue ?"
+  vi: "Nó có đuôi không?"
+domestic:
+  type: boolean
+  origine: true
+  fr: "Est-il domestique ?"
+  vi: "Nó có phải là vật nuôi (đã được thuần hóa) không?"
+catsize:
+  type: boolean
+  origine: true
+  fr: "Est-il de la taille d'un chat ou plus grand ?"
+  vi: "Nó có kích thước bằng một con mèo hoặc lớn hơn không?"
+
+# Nouveaux caractères ajoutés par l'utilisateur
+herbivore:
+  type: boolean
+  origine: false
+  fr: "Mange-t-il surtout des végétaux (herbe, feuilles, graines, fruits, nectar) ?"
+  vi: "Nó có chủ yếu ăn thực vật (cỏ, lá, hạt, quả, mật hoa) không?"
+omnivore:
+  type: boolean
+  origine: false
+  fr: "Mange-t-il à la fois des végétaux et des animaux (omnivore) ?"
+  vi: "Nó có ăn cả thực vật lẫn động vật (ăn tạp) không?"
+social:
+  type: boolean
+  origine: false
+  fr: "Vit-il en groupe (troupeau, banc, meute, colonie, volée) ?"
+  vi: "Nó có sống theo nhóm (đàn, bầy, đàn cá, tổ, đàn chim) không?"
+heavy:
+  type: boolean
+  origine: false
+  fr: "Pèse-t-il plus qu'un humain adulte (plus de 70 kg) ?"
+  vi: "Nó có nặng hơn một người lớn (trên 70 kg) không?"
+small:
+  type: boolean
+  origine: false
+  fr: "Pèse-t-il moins de 2 kg ?"
+  vi: "Nó có nhẹ hơn 2 kg không?"
+tropical:
+  type: boolean
+  origine: false
+  fr: "Vit-il surtout dans les régions chaudes (tropiques, savane) ?"
+  vi: "Nó có chủ yếu sống ở vùng nóng (nhiệt đới, thảo nguyên) không?"
+cold:
+  type: boolean
+  origine: false
+  fr: "Vit-il surtout dans les régions froides (pôles, toundra, mers froides) ?"
+  vi: "Nó có chủ yếu sống ở vùng lạnh (vùng cực, lãnh nguyên, biển lạnh) không?"
+desert:
+  type: boolean
+  origine: false
+  fr: "Vit-il dans les déserts ou les régions arides ?"
+  vi: "Nó có sống ở sa mạc hoặc vùng khô cằn không?"
+nocturnal:
+  type: boolean
+  origine: false
+  fr: "Est-il surtout actif la nuit ?"
+  vi: "Nó có chủ yếu hoạt động về đêm không?"
+arboreal:
+  type: boolean
+  origine: false
+  fr: "Vit-il ou se perche-t-il dans les arbres ou les buissons ?"
+  vi: "Nó có sống hoặc đậu trên cây, bụi rậm không?"
+burrows:
+  type: boolean
+  origine: false
+  fr: "Vit-il sous terre ou enfoui dans le sol / le sable / la vase (terrier) ?"
+  vi: "Nó có sống dưới đất hoặc vùi trong đất, cát, bùn (hang) không?"
+freshwater:
+  type: boolean
+  origine: false
+  fr: "Vit-il en eau douce (rivières, lacs, étangs) ?"
+  vi: "Nó có sống ở nước ngọt (sông, hồ, ao) không?"
+horns:
+  type: boolean
+  origine: false
+  fr: "A-t-il des cornes ou des bois ?"
+  vi: "Nó có sừng hoặc gạc không?"
+long_neck:
+  type: boolean
+  origine: false
+  fr: "A-t-il un cou très long ?"
+  vi: "Nó có cổ rất dài không?"
+ruminant:
+  type: boolean
+  origine: false
+  fr: "Rumine-t-il (remâche-t-il son herbe, comme une vache) ?"
+  vi: "Nó có nhai lại (như con bò) không?"
+songbird:
+  type: boolean
+  origine: false
+  fr: "Est-ce un petit oiseau chanteur (passereau) ?"
+  vi: "Nó có phải là loài chim nhỏ biết hót (chim sẻ, chim chích...) không?"
